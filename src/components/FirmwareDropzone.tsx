@@ -7,7 +7,7 @@
  */
 
 import { useCallback, useRef, useState } from 'react';
-import { UploadCloud, FileArchive, X, Hash, ScanFile, Loader2, CheckCircle2 } from 'lucide-react';
+import { UploadCloud, FileArchive, X, Hash, FileSearch, Loader2, CheckCircle2 } from 'lucide-react';
 import type { FileAnalysis, FlashState, HashProgress } from '../types';
 import { fmtBytes } from '../lib/fileAnalyzer';
 
@@ -114,7 +114,7 @@ export default function FirmwareDropzone({
             if (f) onScatter(f);
             e.currentTarget.value = '';
           }} />
-          <span className="flex items-center gap-1.5"><ScanFile size={12} /> Load scatter / manifest (.txt / .xml)</span>
+          <span className="flex items-center gap-1.5"><FileSearch size={12} /> Load scatter / manifest (.txt / .xml)</span>
           <span className="text-[9px] opacity-70">parses partition_name / file / size / start_addr</span>
         </div>
 
