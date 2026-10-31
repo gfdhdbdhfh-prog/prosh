@@ -1,0 +1,11 @@
+nohup: ignoring input
+
+> neoflash-studio@4.2.1 dev
+> vite --host 0.0.0.0 --port 5173 --strictPort
+
+
+  VITE v5.4.21  ready in 201 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://21.0.17.140:5173/
+8:53:39 AM [vite] page reload index.html
